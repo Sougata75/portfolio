@@ -1,0 +1,93 @@
+{
+    "Name": "はじめまして！スガタ・ブニアです",
+    "Banner": {
+        "title": "フルスタックソフトウェアエンジニア",
+        "title2":"MERNスタックエンジニア",
+        "sub":"直感的なReactインターフェースから堅牢なNode.jsバックエンドまで、信頼性の高いシステムを構築します。Docker、Redis、クラウド環境などのモダンなインフラを活用し、パフォーマンスと拡張性に優れた、本番環境に対応する効率的なソフトウェアを開発します。"
+    },
+     "about":"私は、最新のJavaScriptエコシステムを活用し、動的かつレスポンシブなWebアプリケーションを開発しています。特にフロントエンド開発を得意とし、React、TypeScript、Tailwind CSSを駆使して、シームレスなユーザー体験を実現しています。ビジネス実務の経験を持つことから、コードの一行一行を「業務上の資産」と捉え、効率性や保守性に優れ、かつビジネス目標に合致した実装を心がけています。現在はNode.jsやMongoDBを用いたバックエンドアーキテクチャの知見も深めており、堅牢なフルスタックシステムをゼロから設計・構築できる体制を整えています。",
+    "aboutDetails":{
+        "contact":"連絡先",
+        "phone":"電話",
+        "dob":"生年月日",
+        "language":"言語",
+        "interest": "趣味",
+        "social": "ソーシャルメディア"
+    },
+        "details":{
+        "contact":"bhuniasougata237@gmail.com",
+        "phone":"+91 7908317775",
+        "dob":"2003年2月20日",
+        "language":"英語-日本語-ヒンディー語-ベンガル語",
+        "interest": "コーディング、思索、ゲーム"
+    },
+    "skills":{
+        "title": "​技術スタック",
+        "sub": "React、TypeScript、および動的なフロントエンドを実現するモダンなUIフレームワークを専門としています。スケーラブルなNode.jsアーキテクチャの領域にも展開し、エンドツーエンドの製品開発を手掛けています。"
+    },
+    "education":{
+        "title": "学歴・職歴",
+        "sub": "学術的な基礎からフルスタック・ソフトウェア・アーキテクチャに至るまでの歩み。私のエンジニアとしてのキャリアを形作った重要な節目や実務経験を振り返ります。",
+        "school": {
+            "high": "中学校",
+            "highDesc":"​西ベンガル州サバングにある当校で中等教育を修了し、論理的思考を中心とした強固な学業の基礎を築きました。この初期の学習環境において、問題解決に対する規律あるアプローチを養うことができ、これが後にソフトウェアエンジニアリングや複雑なシステム開発の分野へ進むための重要な土台となりました。",
+            "schoolName":"bonai basanti vidyapeeth, sabang ,WB, india",
+            "higherSecondery": "​高等学校",
+            "hsDesc":"当校にて高等中等教育を修了し、論理的推論力と構造的思考を飛躍的に高める高度な学業に専念しました。この重要な教育期間は、後のコンピュータ・アプリケーション専攻における高度な要求に応えるための準備となり、テクノロジーとシステムアーキテクチャへの強い関心を確固たるものにしました。",
+            "hsSchoolName":"balyagobindapur jnan-karma vidyapith, egra, WB, india"
+        },
+        "collages": {
+            "ug": "コンピュータ・アプリケーション学士 (BCA)",
+            "ugField": "コンピュータサイエンス",
+            "ugDesc": "ソフトウェア開発、データ構造、および最新のプログラミング言語の包括的な基礎を築き、コンピュータ・アプリケーション学士号（BCA）を取得しました。この学位を通じて私の技術的なコアスキルが確立され、ゼロからスケーラブルでユーザー中心のWebアプリケーションを設計・構築するという情熱に火がつきました。",
+            "ugUniversity":"swami vivekanand university, sagar, MP, india",
+            "pg": "経営学修士（MBA）",
+            "pgField": "オペレーション管理)",
+            "pgDesc": "オペレーション管理を専攻して経営学修士号（MBA）を取得し、プロセスの最適化と戦略的なビジネスワークフローに関する重要な知見を得ました。このユニークな背景により、単なるプログラマーとしてではなく、ソフトウェア・ソリューションを業務効率化やビジネス目標と直接結びつけるシステムアーキテクトの視点から、フルスタック開発に取り組むことが可能になっています。" ,
+            "pgUniversity":"mahakaushal university, jabalpur, MP, india",
+            "major":"専攻"
+        }
+    },
+    "projects":{
+            "title": "注目のプロジェクト",
+            "sub": "複雑な課題を解決し、シームレスなユーザー体験を提供するために構築されたフルスタックアプリケーションの実績。",
+            "work1":{
+                "project":"TechBlog (ブログ アプリケーション)",
+                "description": "TechBlogは、Reactの基本概念を実証するために設計された、軽量かつフロントエンド主体のブログアプリケーションです。型安全性を確保するためにTypeScriptのみで構築されており、React Router DOMを活用したシームレスなクライアントサイド・ナビゲーションを実現しています。コンポーネントの状態管理や非同期データ取得は、すべて標準のuseStateおよびuseEffectフックで行われ、サードパーティ製REST APIから取得したコンテンツを動的にレンダリングします。",
+                "techStack": ["react","typeScript","react router","REST API"],
+                "projectLink":"https://github.com/Sougata75/Blog-App-React_Assignment-2",
+                "liveProject": "https://blog-app-react-assignment-2.vercel.app/"
+            },
+            "work2":{
+                "project":"student management CRM",
+                "description": "安全なロールベースアクセス制御（RBAC）を実装した、フルスタックの学生管理CRMです。認証後、ユーザーの権限に応じて管理者パネルまたは学生用ダッシュボードへ動的にルーティングします。ReactとTypeScriptで構築され、Context APIによるグローバル状態管理とReact Hook Formによるシームレスなデータ入力を活用しています。Appwriteをバックエンドとして採用し、管理者はコースの高度なCRUD操作やユーザー権限の管理を実行でき、学生は自身の学業データを効率的に確認できます。",
+                "credentials":"Admin Credential: Mail Id - bhuniasougata237@gmail.com & Password - admin@123",
+                "techStack": ["React","TypeScript","Context API","React Hook Form","Sonner","yup","MUI","Appwrite"],
+                "projectLink":"https://github.com/Sougata75/Student_Management_DashBoard_Assingment_3",
+                "liveProject": "https://student-management-dash-board-assin-sand.vercel.app/"
+            },
+            "work3":{
+                "project":"airline reservation system",
+                "description": "乗客用と管理者用の独立したポータルを備えた包括的な航空券予約プラットフォームです。ユーザーは航空券の予約（片道・往復）、予約後の動的な座席変更、オンラインチェックイン、およびデジタル搭乗券の発券を行うことができます。管理者ダッシュボードでは、フライトスケジュールの高度なCRUD操作、一元化された予約管理、およびリアルタイムの収益分析が可能です。Next.jsとTypeScriptで構築され、複雑な状態管理にTanStack QueryとRedux Toolkitを、厳格なデータバリデーションにReact Hook FormとZodを活用し、shadcn/uiとMagic UIを用いて洗練されたインターフェースを実装しています。",
+                "credentials":"Admin Credential: Mail Id - bhuniasougata237@gmail.com & Password - SougataBhunia@2003",
+                "techStack": ["Next.js","TypeScript","Redux Toolkit","TanStack Query","Zod","React Hook Form","shadcn/ui","Magic UI"],
+                "projectLink":"https://github.com/Sougata75/Flight-reservation-system",
+                "liveProject": "https://flight-reservation-system-alpha.vercel.app/"
+            }
+        },
+        "beyondCode": {
+            "title": "コードの向こう側",
+            "sub": "ターミナルを離れた際の、私のインスピレーションの源泉をご紹介します。",
+            "musicTitle": "音楽 (Music)",
+            "musicDesc": "新しいジャンルを開拓したり、デバッグ中にアンビエント音楽を聴いたりと、音楽は日々のワークフローと集中力に欠かせない要素です。",
+            "gamingTitle": "ゲーム (Gaming)",
+            "gamingDesc": "現代のゲームの複雑なメカニクスや問題解決の要素、没入感のあるUI/UXに魅了されており、それが自身のフロントエンド設計のインスピレーションになることもあります。",
+            "languageTitle": "言語と文化 (Languages)",
+            "languageDesc": "プログラミング言語にとどまらず、語学にも深く取り組んでいます。英語、日本語、ヒンディー語、ベンガル語を操ることで、グローバルなユーザー体験に対する独自の視点を持っています。"
+        },
+        "footer": {
+            "builtWith": "Next.js, Tailwind CSS, Framer Motionを使用して構築されています。",
+            "rights": "© 2026 Sougata Bhunia. 無断複写・転載を禁じます。",
+            "backToTop": "トップへ戻る"
+        }
+}

@@ -1,0 +1,93 @@
+{
+    "Name": "hi! i'am sougata bhunia",
+    "Banner": {
+        "title": "full-stack software engineer",
+        "title2": "mern-stack engineer",
+        "sub": "Architecting robust systems from intuitive React interfaces to secure Node.js backends. Leveraging modern infrastructure including Docker, Redis, and cloud deployments. Building efficient, production-ready software optimized for performance and scale."
+    },
+    "about":"I build dynamic, responsive web applications using the modern JavaScript ecosystem. My core expertise lies in the frontend, utilizing React, TypeScript, and Tailwind CSS to deliver seamless user experiences. Coming from a business operations background, I treat every line of code as an operational asset—it needs to be efficient, maintainable, and aligned with business goals. I am currently deepening my expertise in backend architecture with Node.js and MongoDB to design robust, full-stack systems from the ground up.",
+    "aboutDetails":{
+        "contact":"Contact",
+        "phone":"Phone",
+        "dob":"Date of birth",
+        "language":"Spoken Language",
+        "interest": "Interest",
+        "social": "Social Media"
+    },
+    "details":{
+        "contact":"bhuniasougata237@gmail.com",
+        "phone":"+91 7908317775",
+        "dob":"february 20, 2003",
+        "language":"english-japanese-hindi-bengali",
+        "interest": "coding,musing,games"
+    },
+    "skills":{
+        "title": "technical arsenal",
+        "sub": "Specializing in React, TypeScript, and modern UI frameworks for dynamic frontends. Expanding into scalable Node.js architectures to engineer complete end-to-end products."
+    },
+    "education":{
+        "title": "education & experience",
+        "sub": "Tracing my path from academic fundamentals to full-stack software architecture. The key milestones and professional experiences driving my development career.",
+        "school": {
+            "high": "high school",
+            "highDesc": "Completed my secondary education here, building a strong academic foundation with a focus on analytical thinking. This early environment fostered my disciplined approach to problem-solving and mathematics, which later became an essential stepping stone for my transition into software engineering and complex computer applications.",
+            "schoolName":"bonai basanti vidyapeeth, sabang ,WB, india",
+            "higherSecondery": "higher secondery",
+            "hsDesc":"Completed my higher secondary education, engaging in advanced coursework that significantly sharpened my logical reasoning and structured thinking. This critical phase of my academic journey prepared me for the rigors of higher studies in computer applications, cementing my early dedication to technology and systems architecture.",
+            "hsSchoolName":"balyagobindapur jnan-karma vidyapith, egra, WB, india"
+        },
+        "collages": {
+            "ug": "bachelor of computer application (BCA)",
+            "ugField": "computer science",
+            "ugDesc": "Earned my Bachelor of Computer Applications, building a comprehensive foundation in software development, data structures, and modern programming languages. This degree solidified my core technical engineering skills and ignited my passion for designing scalable, user-centric web applications from the ground up.",
+            "ugUniversity":"swami vivekanand university, sagar, MP, india",
+            "pg": "master in business administration",
+            "pgField": "operation management",
+            "pgDesc": "Completed my Master of Business Administration in Operations Management, gaining crucial insights into process optimization and strategic business workflows. This unique background empowers me to approach full-stack development not just as a programmer, but as a systems architect who directly aligns software solutions with operational efficiency and business objectives.",
+            "pgUniversity":"mahakaushal university, jabalpur, MP, india",
+            "major":"major"
+        }
+    },
+    "projects":{
+            "title": "Featured Projects",
+            "sub": "A showcase of full-stack applications built to solve complex problems and deliver seamless user experiences.",
+            "work1":{
+                "project":"TechBlog (blog application)",
+                "description": "TechBlog is a lightweight, frontend-focused blog application engineered to demonstrate core React fundamentals. Built strictly with TypeScript for type safety, it features seamless client-side navigation using React Router DOM. Component state and asynchronous data fetching are handled entirely through native useState and useEffect hooks, dynamically rendering content pulled from a third-party REST API.",
+                "techStack": ["react","typeScript","react router","REST API"],
+                "projectLink":"https://github.com/Sougata75/Blog-App-React_Assignment-2",
+                "liveProject": "https://blog-app-react-assignment-2.vercel.app/"
+            },
+            "work2":{
+                "project":"student management CRM",
+                "description": "A full-stack Student Management CRM engineered with secure Role-Based Access Control (RBAC). The application dynamically routes users to dedicated Admin or Student dashboards upon authentication. Built with React and TypeScript, it leverages the Context API for global state management and React Hook Form for seamless data entry. Admins can execute complex CRUD operations, manage courses, and control user permissions, while students can track their academic details—all seamlessly powered by an Appwrite backend.",
+                "credentials":"Admin Credential: Mail Id - bhuniasougata237@gmail.com & Password - admin@123",
+                "techStack": ["React","TypeScript","Context API","React Hook Form","Sonner","yup","MUI","Appwrite"],
+                "projectLink":"https://github.com/Sougata75/Student_Management_DashBoard_Assingment_3",
+                "liveProject": "https://student-management-dash-board-assin-sand.vercel.app/"
+            },
+            "work3":{
+                "project":"airline reservation system",
+                "description": "A comprehensive airline reservation platform featuring distinct portals for passengers and administrators. Users can book round-trip or one-way flights, dynamically manage seat assignments post-reservation, complete web check-ins, and generate digital boarding passes. The admin dashboard offers advanced CRUD capabilities for flight scheduling, centralized booking management, and real-time revenue analytics. Engineered with Next.js and TypeScript, the application leverages TanStack Query and Redux Toolkit for sophisticated state management, alongside React Hook Form and Zod for rigorous data validation. The interface is highly polished using shadcn/ui and Magic UI components.",
+                "credentials":"Admin Credential: Mail Id - bhuniasougata237@gmail.com & Password - SougataBhunia@2003",
+                "techStack": ["Next.js","TypeScript","Redux Toolkit","TanStack Query","Zod","React Hook Form","shadcn/ui","Magic UI"],
+                "projectLink":"https://github.com/Sougata75/Flight-reservation-system",
+                "liveProject": "https://flight-reservation-system-alpha.vercel.app/"
+            }
+        },
+        "beyondCode": {
+            "title": "Beyond The Code",
+            "sub": "A glimpse into what keeps me inspired outside of the terminal.",
+            "musicTitle": "Music",
+            "musicDesc": "Whether I am exploring new genres or listening to ambient tracks while debugging, music is an essential part of my daily workflow and focus.",
+            "gamingTitle": "Gaming",
+            "gamingDesc": "I appreciate the complex mechanics, problem-solving elements, and immersive UI/UX of modern games, which often inspire my own frontend designs.",
+            "languageTitle": "Linguistics & Culture",
+            "languageDesc": "Beyond programming languages, I am deeply invested in human languages. Navigating English, Japanese, Hindi, and Bengali gives me a unique perspective on global user experiences."
+        },
+        "footer": {
+            "builtWith": "Engineered with Next.js, Tailwind CSS, & Framer Motion.",
+            "rights": "© 2026 Sougata Bhunia. All rights reserved.",
+            "backToTop": "Back to top"
+        }
+}
