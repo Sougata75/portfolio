@@ -39,7 +39,7 @@ function Banner() {
           <motion.h2 variants={itemVerient} className="text-black text-[12px] md:text-[18px] text-start md:w-[80%]">{t('Banner.sub')}</motion.h2>
 
           <motion.div variants={itemVerient} className="flex gap-5">
-            <button className="capitalize text-white text-xl font-bold bg-purple-600 p-1 px-2 md:p-2 md:px-3 flex items-center gap-2 hover:bg-purple-400 duration-500"><User2/> hire me</button>
+            <a href="https://calendly.com/bhuniasougata237" className="capitalize text-white text-xl font-bold bg-purple-600 p-1 px-2 md:p-2 md:px-3 flex items-center gap-2 hover:bg-purple-400 duration-500"><User2/> hire me</a>
             <a href="/Sougata Bhunia_260608_115724.docx" download="Sougata Bhunia" className="flex items-center gap-2 border border-gray-300 p-1 px-2 md:p-2 text-black text-xl font-bold hover:bg-black hover:text-white duration-500"><Download/> Download CV</a>
           </motion.div>
 
