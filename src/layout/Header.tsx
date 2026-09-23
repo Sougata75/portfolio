@@ -38,7 +38,7 @@ function Header() {
               <button onClick={() => handleLanguageChange("en")} className={`${language === "jp"? "block":"hidden"} text-purple-500 border border-yellow-500 p-2 rounded-full`}><Languages size={20}/></button>
               <p onClick={() => handleLanguageChange("en")} className={`${language === "jp"? "block":"hidden"} text-purple-500 text-[12px] md:text-xl capitalize cursor-pointer`}>japanese</p>
             </div>
-            <div className="w-[20%] flex md:hidden items-center justify-start gap-2">
+            <div className="w-[24%] flex md:hidden items-center justify-start gap-2">
               <button onClick={() => handleLanguageChange("jp")} className={`${language === "en"? "block":"hidden"} text-yellow-500 border border-purple-500 p-2 rounded-full`}><Languages size={10}/></button>
               <p onClick={() => handleLanguageChange("jp")} className={`${language === "en"? "block":"hidden"} text-yellow-500 text-[12px] md:text-xl capitalize cursor-pointer`}>english</p>
 
