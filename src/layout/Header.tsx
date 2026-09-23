@@ -22,7 +22,7 @@ function Header() {
  
   return (
     <div className="sticky top-0 z-55 w-full p-3 md:p-5 bg-gray-950 flex justify-center items-center">
-        <nav className="w-[80%] flex justify-between items-center">
+        <nav className="w-[90%] md:w-[80%] flex justify-between items-center">
             <div className="w-[40%]">
               <img className="w-15 md:w-35 " src="/Logo.png"/>
             </div>

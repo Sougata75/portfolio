@@ -59,7 +59,7 @@ function Projects() {
                 <motion.p variants={itemVerient3} className="text-gray-500 text-sm md:text-xl md:w-[50%] text-center">{t('projects.sub')}</motion.p>
             </div>
             <div className="flex flex-col gap-5 md:gap-10">
-              <motion.div variants={itemVerient2}><Project1/></motion.div>
+              <motion.div variants={itemVerient3}><Project1/></motion.div>
             <motion.div variants={itemVerient}><Project2/></motion.div>
             <motion.div variants={itemVerient}><Project3/></motion.div>
             </div>
