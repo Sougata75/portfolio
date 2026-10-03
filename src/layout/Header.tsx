@@ -40,7 +40,7 @@ function Header() {
           ))}
         </div>
 
-        <div className="relative flex items-center md:w-[10%] w-[24%] justify-start">
+        <div className="relative flex items-center md:w-[10%] w-[26%] justify-start">
           <div
             onClick={() => setIsLangOpen(!isLangOpen)}
             className="flex items-center gap-2 cursor-pointer group"
@@ -48,7 +48,7 @@ function Header() {
             <button className="text-yellow-500 border border-purple-500 p-1.5 md:p-2 rounded-full transition-colors group-hover:bg-purple-500/20">
               <Languages className="w-3 h-3 md:w-5 md:h-5" />
             </button>
-            <p className="text-yellow-500 text-[12px] md:text-base capitalize flex items-center gap-1">
+            <p className=" text-yellow-500 text-[12px] md:text-base capitalize flex items-center gap-1">
               {languageOptions.find((lang) => lang.code === language)?.label ||
                 "English"}
               <span className="text-[8px] md:text-[10px] ml-1 opacity-70">
@@ -58,7 +58,7 @@ function Header() {
           </div>
 
           {isLangOpen && (
-            <div className="absolute top-full left-0 mt-2 w-32 bg-[#0B1120] border border-purple-500/50 rounded-xl shadow-2xl overflow-hidden z-50">
+            <div className="absolute top-full right-[-25] md:left-0 mt-2 w-32 bg-[#0B1120] border border-purple-500/50 rounded-xl shadow-2xl overflow-hidden z-50">
               {languageOptions.map((lang) => (
                 <div
                   key={lang.code}
