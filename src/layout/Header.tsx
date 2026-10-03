@@ -40,7 +40,7 @@ function Header() {
           ))}
         </div>
 
-        <div className="relative flex items-center md:w-[10%] w-[26%] justify-start">
+        <div className="relative flex items-center md:w-[10%] w-[28%] justify-start">
           <div
             onClick={() => setIsLangOpen(!isLangOpen)}
             className="flex items-center gap-2 cursor-pointer group"
