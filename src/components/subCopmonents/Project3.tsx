@@ -1,6 +1,6 @@
 "use client";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-import { motion } from "framer-motion";
+import { LazyMotion, domAnimation, m } from "framer-motion";
 import { ExternalLink } from "lucide-react";
 import { useTranslations } from "next-intl";
 
@@ -17,19 +17,20 @@ function Project3() {
   };
 
   return (
-    <motion.div
+    <LazyMotion features={domAnimation}>
+      <m.div
       variants={itemVerient2}
       className="w-full flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-16 mt-16"
     >
       <div className="w-full lg:w-1/2 flex flex-col items-start gap-6">
-        <motion.h3
+        <m.h3
           variants={itemVerient2}
           className="text-3xl md:text-4xl capitalize text-white font-bold"
         >
           {t("projects.work3.project")}
-        </motion.h3>
+        </m.h3>
 
-        <motion.div
+        <m.div
           variants={itemVerient2}
           className="bg-slate-900/80 border border-slate-800 p-5 md:p-7 rounded-2xl shadow-xl z-10"
         >
@@ -39,9 +40,9 @@ function Project3() {
              {t("projects.work3.credentials")}
             </span>
           </p>
-        </motion.div>
+        </m.div>
 
-        <motion.div
+        <m.div
           variants={itemVerient2}
           className="flex flex-wrap gap-3 mt-2"
         >
@@ -55,9 +56,9 @@ function Project3() {
               </span>
             ),
           )}
-        </motion.div>
+        </m.div>
 
-        <motion.div
+        <m.div
           variants={itemVerient2}
           className="flex flex-wrap gap-4 mt-4"
         >
@@ -79,11 +80,11 @@ function Project3() {
             <ExternalLink size={18} />
             Live Demo
           </a>
-        </motion.div>
+        </m.div>
       </div>
 
       <div className="w-full lg:w-1/2">
-        <motion.a
+        <m.a
           variants={itemVerient2}
           href={t("projects.work3.liveProject")}
           target="_blank"
@@ -97,9 +98,10 @@ function Project3() {
             src="/airlineReservation.png"
             alt={t("projects.work3.project")}
           />
-        </motion.a>
+        </m.a>
       </div>
-    </motion.div>
+    </m.div>
+    </LazyMotion>
   );
 }
 

@@ -1,11 +1,13 @@
 {
-    "Name": "hi! i'am sougata bhunia",
+    "Name": "hi! i'm sougata bhunia",
     "Banner": {
         "title": "full-stack software engineer",
-        "title2": "mern-stack engineer",
-        "sub": "Architecting robust systems from intuitive React interfaces to secure Node.js backends. Leveraging modern infrastructure including Docker, Redis, and cloud deployments. Building efficient, production-ready software optimized for performance and scale."
+        "title2": "front-end software engineer",
+        "sub": "Architecting robust systems from intuitive React interfaces to secure Node.js backends. Leveraging modern infrastructure including Docker, Redis, and cloud deployments. Building efficient, production-ready software optimized for performance and scale.",
+        "sub2":"Architecting high-performance, SEO-optimized web applications using React.js, Next.js, and TypeScript. Delivering seamless user experiences with advanced global state management, while actively expanding into Node.js to transition into a complete Full-Stack role."
     },
     "about":"I build dynamic, responsive web applications using the modern JavaScript ecosystem. My core expertise lies in the frontend, utilizing React, TypeScript, and Tailwind CSS to deliver seamless user experiences. Coming from a business operations background, I treat every line of code as an operational asset—it needs to be efficient, maintainable, and aligned with business goals. I am currently deepening my expertise in backend architecture with Node.js and MongoDB to design robust, full-stack systems from the ground up.",
+    "aboutFrontend":"I combine an MBA in Operations Management with deep technical expertise in the modern JavaScript ecosystem. My core strength lies in engineering dynamic, enterprise-grade frontend architectures using React.js, Next.js, TypeScript, and Tailwind CSS. Coming from a business background, I treat every line of code as an operational asset—ensuring it is efficient, highly maintainable, and strictly aligned with business goals. Currently, I am deeply focused on mastering scalable backend architecture with Node.js, Express, and MongoDB, successfully transitioning into a comprehensive Full-Stack Software Engineer.",
     "aboutDetails":{
         "contact":"Contact",
         "phone":"Phone",
@@ -23,7 +25,8 @@
     },
     "skills":{
         "title": "technical arsenal",
-        "sub": "Specializing in React, TypeScript, and modern UI frameworks for dynamic frontends. Expanding into scalable Node.js architectures to engineer complete end-to-end products."
+        "sub": "Specializing in React, TypeScript, and modern UI frameworks for dynamic frontends. Expanding into scalable Node.js architectures to engineer complete end-to-end products.",
+        "sub2": "Architecting high-performance, responsive web applications within the modern JavaScript ecosystem. Specializing in advanced state management, component-driven design, and scalable frontend solutions."
     },
     "education":{
         "title": "education & experience",
